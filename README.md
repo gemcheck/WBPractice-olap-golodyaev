@@ -26,6 +26,8 @@ nano docker-compose.yml
 
 ### Сожержание файла docker-compose.yml
 
+[Ссылка yml файл](https://github.com/gemcheck/WBPractice-olap-golodyaev/blob/main/docker-compose-study/docker-compose.yml)
+---------------------------------------------------------------------------------
 version: '3.8'
 
 services:
@@ -57,7 +59,7 @@ services:
         limits:
           cpus: '2.0'
           memory: 1G
-
+---------------------------------------------------------------------------------
 ### Запуск контейнеров
 
 docker-compose up -d
